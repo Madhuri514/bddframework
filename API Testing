@@ -1,0 +1,63 @@
+
+
+Uber
+
+
+
+Google map
+weather
+
+
+component-1 - C#
+intermediate - api calls
+- JSON format
+
+SOAP / REST
+
+Api gateway
+
+component-2 - Java
+
+POSTMAN
+
+Component of APIs (REST)
+
+1 - Host + Endpoint
+2 - Headers - Auth, content-type
+3 - CRUD - Create (POST) ,Read(GET) , Update (PUT (complete resource) AND PATCH(partial resource) ) and Delete (DELETE)
+4 - Payload - JSON, HTML, TXT
+
+Response
+Code
+
+1XX = Information
+2XX = Success
+    200 = OK
+    201 = create
+    204 = no-content
+3XX = Redirectional
+    300 = multiple choice
+    301 = moved permanantly
+
+4XX = client
+    400 = Bad Request
+    401 = Auth issue
+    403 = forbidden
+    404 = resource not found
+    405 = Method not allowed
+
+5XX = server - raise a bug
+    500 = internal server error
+    502
+    503 = service not available
+
+Xpath
+
+JSONPath =
+
+{
+name : "Vaibhav",
+age : 34
+}
+String firstname = jsonpath("name");
+int age = jsonpath("age")
